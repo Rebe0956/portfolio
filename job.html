@@ -8,13 +8,11 @@
     <title>Portofolie</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="javascript.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Cookie|Old+Standard+TT|Raleway+Dots" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-
+    <link href="https://fonts.googleapis.com/css?family=Acme|Open+Sans+Condensed:300|Rajdhani|Roboto+Mono" rel="stylesheet">
 
 
 
@@ -24,46 +22,46 @@
 <body>
 
 
-<header>
-    <div class="menu">
-        <div class="menubutton">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-            <div class="bar bar3"></div>
+    <header>
+        <div class="menu">
+            <div class="menubutton">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <section id="top"></section>
+            <nav class="hidden">
+                <ul>
+                    <li><a href="index.html"> Forside </a></li>
+                    <!--                    <li><a href="cv.html"> CV-om mig </a></li>-->
+                    <li class="dropdown">
+
+                        <!--                        <button class="dropbtn">CV-om mig</button>-->
+                        <a href="cv.html" class="dropbtn">CV-om mig &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="job.html">Job</a>
+                            <a href="uddannelse.html">Uddannelse</a>
+                            <a href="interesser.html">Interesser</a>
+                        </div>
+
+                    </li>
+                    <li class="dropdown">
+
+                        <a href="portfolio.html" class="dropbtn">Portfolie &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="tema1.html">Tema 1 - Grundlæggende HTML</a>
+                            <a href="tema3.html">Tema 3 - Grundlæggende video</a>
+                            <a href="tema2.html">Tema 2 - Animation</a>
+                            <a href="tema4.html">Tema 4 - Grundlæggende UX</a>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-        <section id="top"></section>
-        <nav class="hidden">
-            <ul>
-                <li><a href="index.html"> Forside </a></li>
-                <!--                    <li><a href="cv.html"> CV-om mig </a></li>-->
-                <li class="dropdown">
-
-                    <!--                        <button class="dropbtn">CV-om mig</button>-->
-                    <a href="cv.html" class="dropbtn">CV-om mig &#9662;</a>
-                    <div class="dropdown-content">
-                        <a href="job.html">Job</a>
-                        <a href="uddannelse.html">Uddannelse</a>
-                        <a href="interesser.html">Interesser</a>
-                    </div>
-
-                </li>
-                <li class="dropdown">
-
-                    <a href="portfolio.html" class="dropbtn">Portfolie &#9662;</a>
-                    <div class="dropdown-content">
-                        <a href="tema1.html">Tema 1 - Grundlæggende HTML</a>
-                        <a href="tema3.html">Tema 3 - Grundlæggende video</a>
-                        <a href="tema2.html">Tema 2 - Animation</a>
-                        <a href="tema4.html">Tema 4 - Grundlæggende UX</a>
-
-                    </div>
-
-                </li>
-            </ul>
-        </nav>
-
-    </div>
-</header>
+    </header>
 
 
 
@@ -129,7 +127,8 @@
     <footer>
         Dette portofolie er lavet af Rebecca Skytte Nielsen (KEA)
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>

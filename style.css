@@ -1,9 +1,8 @@
-/**------- Billeder ------**/
-
 img {
     border-radius: 50px;
 
 }
+
 
 #splash img {
     width: 100%;
@@ -11,7 +10,6 @@ img {
 
 }
 
-/*links*/
 
 a {
 
@@ -22,13 +20,13 @@ a {
 }
 
 li {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
-
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
-/**---------- Menu ------------**/
+/**Menu**/
 
 .menubutton {
     width: 2em;
@@ -103,19 +101,17 @@ nav {
 
 .menu a,
 .dropdown .dropbtn {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
     font-size: 2.5em;
     line-height: 40px;
     text-align: left;
 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+
+
 }
-
-
-
-
-/**---------- drop down menu -----------------**/
 
 .dropdown .dropbtn {
     border: none;
@@ -179,7 +175,7 @@ nav {
 }
 
 
-/**----------- Media Q ------------------**/
+/**Media Q**/
 
 @media screen and (max-width:860px) {
     .menu ul {
@@ -198,6 +194,8 @@ nav {
         text-align: left;
     }
 }
+
+
 
 /**portfolie**/
 
@@ -225,7 +223,6 @@ nav {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-
 
 }
 
@@ -460,12 +457,11 @@ a {
 }
 
 
-
 #tema2 p {
     padding-right: 1.5em;
 }
 
-/*tema4*/
+
 
 #tema4 {
 
@@ -534,10 +530,9 @@ a {
 
 
 #tema4 p {
-    padding-right: 1.5em;
+    padding-right: 2.5em;
 }
 
-/*cv*/
 
 #tema1 .rows {
     display: flex;
@@ -564,17 +559,24 @@ a {
     flex-basis: 300px;
 }
 
+/*cv */
+
 #cv {
     display: flex;
     flex-wrap: wrap;
     padding: 5vw;
 }
 
+#cv p {
+    padding-right: 20vw;
+    /*    columns: 2;*/
+}
 
 
 
 #cv img {
-    max-width: 100vw;
+
+    /*    max-width: 100vw;*/
 }
 
 #cv .bottom {
@@ -619,9 +621,6 @@ a {
 
 
 
-
-/**----------- Flexboks ------------------**/
-
 .column {
     flex-grow: 1;
     flex-basis: 600px;
@@ -635,12 +634,14 @@ a {
 
 }
 
+/*
 .txt {
     flex-grow: 1;
     flex-basis: 300px;
-    padding: 1vw;
+    padding: 10vw;
 
 }
+*/
 
 .image {
     flex-grow: 1;
@@ -663,7 +664,6 @@ a {
 }
 
 
-/**---------- Fonte ----------**/
 
 p {
     font-family: 'Old Standard TT', serif;
@@ -673,39 +673,44 @@ p {
 
 
 h1 {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 5em;
     color: #b75a5f;
 
 }
 
 h2 {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 3.1em;
     padding-right: 10vw;
 
 }
 
 h3 {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 1.7em;
 }
 
 h4 {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 2.2em;
 }
 
 .left a {
-    font-size: 1.2em;
+    font-size: 1.3em;
 
 }
 
@@ -716,9 +721,10 @@ h4 {
 
 
 .tiltop a {
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 1.7em;
     text-decoration: none;
     color: #C37377;
@@ -731,17 +737,6 @@ h2 a {
 }
 
 
-/**------- Footer ------**/
-
-footer a {
-
-    padding: 2px;
-    color: white;
-
-}
-
-
-
 footer {
     font-size: 1.7em;
     color: white;
@@ -749,13 +744,14 @@ footer {
     text-align: center;
     background-color: #b75a5f;
     letter-spacing: 2px;
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Cookie', cursive;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
-/**------- baggrundsfarve ------**/
 
 body {
     background-color: #e8e8e8;
+    /*    background: linear-gradient(#e6e6e6, #ededed, #ede0e0);*/
 }
