@@ -574,7 +574,7 @@ a {
 }
 
 #cv p {
-    padding-right: 20vw;
+    padding-right: 40vw;
     /*    columns: 2;*/
 }
 
@@ -611,7 +611,8 @@ a {
 }
 
 #cv h1 {
-    color: #F2CC61
+    color: #F2CC61;
+    padding: 1vw;
 }
 
 #cv a {
@@ -686,6 +687,7 @@ h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 5em;
     color: #b75a5f;
+    padding-left: 3vw;
 
 }
 
@@ -758,6 +760,6 @@ footer {
 
 
 body {
-    background-color: #e8e8e8;
-    /*    background: linear-gradient(#e6e6e6, #ededed, #ede0e0);*/
+/*        background-color: #e8e8e8;*/
+    background: linear-gradient(to right, rgba(224, 224, 224, 0.29), rgb(203, 203, 203));
 }
