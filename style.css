@@ -4,6 +4,7 @@ img {
 }
 
 
+
 #splash img {
     width: 100%;
     margin: 40px 0px 10px 0px;
@@ -463,6 +464,7 @@ a {
 
 
 
+
 #tema4 {
 
     justify-content: center;
@@ -530,7 +532,11 @@ a {
 
 
 #tema4 p {
-    padding-right: 2.5em;
+    padding-right: 1.5em;
+}
+
+#tema4 h4 {
+    padding-right: 10vw;
 }
 
 
@@ -609,7 +615,7 @@ a {
 }
 
 #cv a {
-    font-size: 1.2em;
+    font-size: 3.2em;
 
 }
 
